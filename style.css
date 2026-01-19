@@ -1,3 +1,4 @@
+/* RESET */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -5,19 +6,23 @@ body {
   color: #fff;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
   min-height: 100vh;
+  text-align: center;
+  padding: 60px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #000;
+  justify-content: center;
 }
 
-/* IMAGE */
+.name {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
 .hero img {
   width: 170px;
   border-radius: 50%;
@@ -25,36 +30,41 @@ body {
   border: 2px solid #222;
 }
 
-/* TEXT */
-.hero h1 {
-  font-size: 36px;
-  margin-bottom: 6px;
-}
-
 .hero h2 {
   font-size: 22px;
-  color: #3b82f6; /* blue accent */
+  color: #3b82f6;
   margin-bottom: 20px;
 }
 
 .hero p {
+  max-width: 600px;
   font-size: 17px;
   line-height: 1.6;
-  max-width: 600px;
-  margin-bottom: 30px;
   color: #d1d5db;
 }
 
-/* CTA */
-.cta {
-  padding: 12px 26px;
-  background-color: #3b82f6;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
+/* WHAT I DO */
+.services {
+  padding: 80px 20px;
+  background-color: #000;
+  text-align: center;
 }
 
-.cta:hover {
-  background-color: #2563eb;
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services li {
+  font-size: 17px;
+  padding: 12px 0;
+  border-bottom: 1px solid #222;
+  color: #d1d5db;
 }
